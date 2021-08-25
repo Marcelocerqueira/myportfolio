@@ -30,7 +30,7 @@
 }
 
 .show-menu .hamburguer{
-    right: 16rem;
+    right: 18rem;
 }
 
 .line{
@@ -131,13 +131,14 @@ header{
     background-color: #fff;
     position: fixed;
     top: 0;
-    right: -20rem;
+    right:-20rem;
     transition: all 1s;
 }
 
-.show-menu .sidebar{
+.show-menu.sidebar{
     right: 0;
 }
+
 .menu{
     position: absolute;
     top: 40%;
@@ -160,6 +161,7 @@ header{
 .menu-link:hover{
     color:#2193b0;
 }
+
 .social-media{
     position: absolute;
     bottom:2rem;
