@@ -504,21 +504,14 @@ footer {
     align-items: center;
 }
 
-@media  screen and (min-width: 768px){
-    nav {
-        flex-direction: row;
-        justify-content: space-around;
-        
+
+@media only screen and (max-device-width: 900px) {
+    .projetos { width:600px; } 
     }
 
-    nav ul {
-        flex-direction: row;
-        width: 70%;
-    }
+    @media only screen and (max-device-width: 700px) {
+         .projetos { width:400px; } 
+        }
 
-    header{
-        height: 600px;
-        height: 60vh;
-        justify-content: center;
+    
        
-}
