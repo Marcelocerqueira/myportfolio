@@ -505,13 +505,13 @@ footer {
 }
 
 
-@media only screen and (max-device-width: 900px) {
-    .projetos { width:600px; } 
+@media (max-width: 1200px) {
+    html{
+        font-size: 50%;
     }
-
-    @media only screen and (max-device-width: 700px) {
-         .projetos { width:400px; } 
-        }
+}
+    
+    
 
     
        
