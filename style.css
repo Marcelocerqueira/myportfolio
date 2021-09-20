@@ -236,6 +236,7 @@ header{
     grid-template-columns: repeat(16,1fr);
     grid-template-rows: repeat(6,6rem);
     row-gap: 3rem;
+    
 }
 
 .conhecimento:nth-child(1){
@@ -320,7 +321,11 @@ header{
 .projetos {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 2rem;
+  margin-bottom: auto;
+  
+
+
+  
 }
 
 .card {
@@ -504,11 +509,45 @@ footer {
     align-items: center;
 }
 
-
-@media (max-width: 1200px) {
-    html{
-        font-size: 50%;
+@media (max-width: 920px) {
+    .projetos {
+        flex-wrap: wrap;
     }
+
+    @media (max-width: 320px) {
+        .projetos{
+            flex-direction: column;
+        } 
+        .projetos {
+            margin: 5px 0px 5px 0px;
+            width: 100%;
+            
+        }  
+        
+    }
+
+   
+
+}
+@media (max-width: 920px) {
+    .conhecimentos,conhecimento:nth-child(1) {
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 320px) {
+        .conhecimentos,conhecimento:nth-child(2),conhecimento:nth-child(1){
+            flex-direction: column;
+        } 
+        .conhecimentos,conhecimento:nth-child(3) {
+            margin: 5px 0px 5px 0px;
+            width: 100%;
+            
+        }  
+        
+    }
+
+   
+
 }
     
     
