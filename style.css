@@ -614,6 +614,9 @@ img{
     .containerContato{
         margin: 3rem;
     }
+    .containerContato .formContato{
+        padding: 3rem 2rem;
+    }
 
 }
 
@@ -632,7 +635,7 @@ img{
         width: 100%;
     }
     .containerContato .formContato{
-        padding: 3rem 2rem;
+        padding: 3rem .8rem;
     }
 }
 
